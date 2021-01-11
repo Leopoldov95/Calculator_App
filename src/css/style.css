@@ -1,0 +1,83 @@
+:root {
+  --bg-primary: rgb(230, 230, 230);
+  --btn-hover: rgb(189, 189, 189);
+  --btn-primary: rgb(240, 240, 240);
+  --btn-sec: rgb(220, 220, 220);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* UTILITIES */
+
+.btn-oper-focus {
+  background-color: var(--btn-hover) !important;
+}
+
+.btn-input {
+  background-color: var(--btn-primary);
+  font-size: 1.4rem;
+}
+
+#btn-clear,
+.btn-oper {
+  background-color: var(--btn-sec);
+  font-size: 1.2rem;
+}
+
+.btn-input:hover,
+.btn-oper:hover,
+#btn-clear:hover {
+  background-color: var(--btn-hover);
+}
+
+.main-container {
+  width: 340px;
+  height: 425px;
+  background-color: var(--bg-primary);
+  margin: auto;
+  margin-top: 4rem;
+  border: 1px solid #333;
+}
+
+.main-container > div {
+  background-color: var(--bg-primary);
+  height: 6rem;
+}
+
+.main-container > div p {
+  padding: 1rem 0 0 1rem;
+  font-size: 2.4rem;
+}
+
+.main-container .grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 4rem;
+  grid-gap: 0.1rem;
+}
+
+.main-container .grid-wrapper #btn-equal {
+  background-color: rgb(139, 192, 219);
+  grid-column: 4;
+  grid-row: 2/6;
+  font-size: 2rem;
+}
+.main-container .grid-wrapper #btn-equal:hover {
+  background-color: steelblue;
+}
