@@ -1,16 +1,3 @@
-/////challenges for me////////////
-//Make app work without using eval
-//make sure user cannot double press an oper btn - FINISHED
-//display user number input on user screen - FINISHED
-//make the operations work - FINISHED
-//fix overflow issue (no e+)
-//clear user input disaply once user has pushed new number after hitting equal - FINISHED
-//make combinations work (5 + 5 + 6 + 7 - 2)
-
-//////////how to make operations work/////////
-//when user presses an oper btn, the value on the screen should be stored somewhere,
-//user should not be able to press the oper btn if there is no input value
-//user should be able to string arithmetic combinations (ex) 5 + 5 + 5)
 
 //DOM Selector
 const mainContainer = document.querySelector(".main-container");
