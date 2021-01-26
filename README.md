@@ -1,7 +1,6 @@
 # Calculator App
 ## Table of Contents
 * [General Info](#general-info)
-* [Screenshot](#screenshot)
 * [Technologies](#technologies)
 * [Features](#features)
 
