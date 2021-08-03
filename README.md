@@ -9,8 +9,8 @@ This is a simple yet functioning calculator I created sith plain HTML, CSS, and 
 
 ## Technologies
 This app was created with the following technologies:
-* HTML
-* CSS
+* HTML5
+* CSS3
 * javaScript
 
 ## Features
